@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://xpf7jo22ikgt"]
+
+[ext_resource type="PackedScene" uid="uid://b7apsw2cacibg" path="res://scenes/player.tscn" id="1_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://bwi55fyrlqlga" path="res://scenes/grounds.tscn" id="2_lnu2h"]
+
+[node name="Node" type="Node"]
+
+[node name="Tilesets" parent="." instance=ExtResource("2_lnu2h")]
+
+[node name="player" parent="." instance=ExtResource("1_yqjtg")]
+position = Vector2(-1, 6)
